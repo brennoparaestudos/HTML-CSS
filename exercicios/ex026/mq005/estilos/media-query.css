@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*Typical device breakpoints 2026
+---------------------------------
+Pequeno (Mobile): Abaixo de 576px (telas de celular com retrato/paisagem).
+
+Médio (Tablet): 576px a 767px (Tablets, paisagem pequena).
+
+Grande (Laptop/Desktop Pequeno): 768px a 991px (Tablets retrato/
+paisagem, laptops menores).
+
+Extra Grande (Desktop): 992px a 1199px (Desktops padrão).
+
+Widescreen (TVs/Monitores Grandes): 1200px ou acima 
+*/ 
+
+@media screen and (min-width: 768px){
+    span#burguer{
+        display: none;
+    }
+
+    menu{
+        display: block;
+    }
+
+    menu > ul > li{
+        display: inline-block;
+    }
+
+    main{
+        width: 768px;
+    }
+}
